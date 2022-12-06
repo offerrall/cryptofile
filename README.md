@@ -1,12 +1,12 @@
 # Description
-This is a small Python script that allows you to encrypt and decrypt files using the Fernet algorithm from the Python cryptography library.
+This is a small Python script that allows you to encrypt and decrypt files and folders using the Fernet algorithm from the Python cryptography library.
 
 # Usage
-crypto_file [option] [file] [key]
+crypto_file [option] [file/folder] [key]
 
 # Options
-- -e, --encrypt: Encrypt a file
-- -d, --decrypt: Decrypt a file
+- -e, --encrypt: Encrypt a file or folder
+- -d, --decrypt: Decrypt a file or folder
 - -g, --generate: Generate a key
 - -h, --help: Show this help
 
