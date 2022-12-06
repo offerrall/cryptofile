@@ -28,9 +28,6 @@ def encrypt_file(key: str, file_name: str) -> str:
 
     with open(file_name + ".encrypted", "wb") as f:
         f.write(encrypted_data)
-
-    with open("key.key", "wb") as f:
-        f.write(key)
         
     return file_name + ".encrypted"
 
